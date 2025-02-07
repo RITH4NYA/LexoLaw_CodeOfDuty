@@ -82,7 +82,7 @@ body {
 }
 
 /* Services Section */
-.services-section {
+.services-section1{
     display: flex;
     justify-content: center;
     gap: 30px;
@@ -90,9 +90,9 @@ body {
 }
 
 /* Service Cards */
-.service-card {
+.service-card1 {
     width: 400px;
-    height: 400px;
+    height: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -106,12 +106,12 @@ body {
     position: relative;
     transition: transform 0.3s ease;
 }
-.service-card a{
+.service-card1 a{
     text-decoration:none;
     color:white;
 }
 
-.service-card::before {
+.service-card1::before {
     content: "";
     position: absolute;
     top: 0;
@@ -122,21 +122,22 @@ body {
     border-radius: 15px;
 }
 
-.service-card h3 {
+.service-card1 h3 {
     position: relative;
     z-index: 1;
 }
 
+
 /* Individual Background Images for Each Card */
-.card1 {
-    background-image: url('https://i.pinimg.com/474x/63/ff/5f/63ff5fc52275ae52639d240c01daf3ea.jpg');
+.carda {
+    background-image: url('https://i.pinimg.com/474x/a8/b5/d0/a8b5d0692b8265e3589aaf2d20d3d304.jpg');
 }
 
-.card2 {
+.cardb {
     background-image: url('https://i.pinimg.com/474x/f7/cd/6f/f7cd6fb0be705fd87c66ef186b5ce00c.jpg');
 }
 
-.card3 {
+.cardc {
     background-image: url('https://i.pinimg.com/736x/98/77/69/987769bdff9180ed868028fdb9b16594.jpg');
 }
 

@@ -32,27 +32,27 @@ const Documents = () => {
 
       {/* Services Cards */}
       <section className="services-section">
-        <div className="service-card card1">
+        <div className="service-card2 cardA">
           <h3>
             <a href="l.html">Bond Agreements</a>
           </h3>
         </div>
-        <div className="service-card card2">
+        <div className="service-card2 cardB">
           <h3>
             <a href="d.html">Contract Drafting</a>
           </h3>
         </div>
-        <div className="service-card card3">
+        <div className="service-card2 cardC">
           <h3>
             <a href="op.html">Business Operations</a>
           </h3>
         </div>
-        <div className="service-card card4">
+        <div className="service-card2 cardD">
           <h3>
             <a href="cr.html">Copyright Protection</a>
           </h3>
         </div>
-        <div className="service-card card5">
+        <div className="service-card2 cardE">
           <h3>
             <a href="tax.html">Tax Advisory</a>
           </h3>

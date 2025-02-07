@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Playfair+Display:wght@400;700&display=swap');
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+} */
+
+.container {
+  text-align: center;
+}
+
+.header {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  height: 17%;
+}
+
+.header nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+}
+.lawyer-card{
+  /* background-color: rgba(0, 0, 0, 0.4); */
+}
+
+.hero {
+  background: url("https://i.pinimg.com/474x/90/cb/7a/90cb7acb2ef4a170c9f5b00bdcbfed9e.jpg") no-repeat center/cover;
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.lawyers {
+  display: flex;
+  flex-wrap: wrap; /* Ensures responsiveness */
+  justify-content: center; /* Center cards */
+  gap: 20px; /* Space between cards */
+  padding: 50px;
+  background-color: #ffffff;
+}
+
+.lawyer-card1 {
+  /* background: hsl(0, 0%, 100%); Force white background */
+  color: rgb(17, 16, 16);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 280px; /* Fixed width */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; /* Ensures spacing */
+  min-height: 400px; /* Minimum height for uniform cards */
+  box-shadow: 0px 4px 10px rgba(6, 6, 6, 0.4); 
+}
+
+
+.lawyer-card1 img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px; /* Space below image */
+
+  
+}
+
+.lawyer-card1 h3 {
+  font-size: 1.3em;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color:rgb(17, 17, 17);
+  
+}
+
+.lawyer-card1 p {
+  font-size: 1em;
+  margin-bottom: 10px;
+  line-height: 1.5;
+  color:rgb(21, 21, 21);
+ 
+}
+
+/* Updated Hire Button */
+.lawyer-card1 button {
+  background: rgba(242, 226, 136, 0.865); /* Changed to gold */
+  color: black; /* Text color changed to black */
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: auto; /* Pushes button to bottom */
+  transition: all 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.lawyer-card1 button:hover {
+  background: #e4e3e0; /* Darker gold on hover */
+}

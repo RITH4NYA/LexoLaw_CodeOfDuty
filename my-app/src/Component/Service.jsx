@@ -18,19 +18,21 @@ const OurServices = () => {
         <h1>Our Services</h1>
         <p>We offer the best services to cater to your needs</p>
       </section>
-      <section className="services-section">
-        <div className="service-card card1">
-          <h3>       
+      <section className="services-section1">
+      <div className="service-card1 carda" style={{ width: "400px",height : "500px" }}>
+
+          <h3>   
+        <a href="/About"style={{ font: "inherit" }}>Lawyers</a> 
           </h3>
         </div>
-        <div className="service-card card2">
+        <div className="service-card1 cardb"style={{ width: "400px",height : "500px" }}>
           <h3>
-            <a href="/documentation">Documentation</a>
+            <a href="/Document">Documentation</a>
           </h3>
         </div>
-        <div className="service-card card3">
+        <div className="service-card1 cardc"style={{ width: "400px",height : "500px" }}>
           <h3>
-            <a href="/comrade">Comrade</a>
+            <a href="/ai">Comrade</a>
           </h3>
         </div>
       </section>

@@ -1,12 +1,12 @@
 /* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Playfair+Display:wght@400;700&display=swap');
 
-/* * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: 'Merriweather', serif; */
-
+    font-family: 'Merriweather', serif;
+}
 
 body {
     background-color: #f5f1e8;
@@ -33,7 +33,7 @@ body {
 .logo {
     font-size: 20px;
     font-weight: bold;
-    font-family: 'Playfair Display', serif;
+    font-family:'Merriweather', serif; ;
 }
 
 .nav {
@@ -58,8 +58,8 @@ body {
 .main-banner {
     text-align: center;
     padding: 160px 20px;
-    background-image: url('https://i.pinimg.com/736x/a6/ad/d0/a6add09b322cf78e304c6cc4b8b374d7.jpg');
-    background-size: cover;
+    background-image: url('https://i.pinimg.com/474x/6b/30/23/6b3023194de1d2b5e6e7bf20a1eec68b.jpg');
+    background-size: contain;
     background-position: center;
     color: white;
     position: relative;
@@ -91,9 +91,9 @@ body {
 }
 
 /* Service Cards */
-.service-card2 {
-    width: 400px;
-    height: 600px;
+.service-card {
+    width: 200px;
+    height: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -103,10 +103,10 @@ body {
     background-size: cover;
     background-position: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    font-family: 'Merriweather', serif;
+    font-family:'Merriweather', serif; ;
 }
 
-.service-card2::before {
+.service-card::before {
     content: "";
     position: absolute;
     top: 0;
@@ -115,53 +115,68 @@ body {
     height: 100%;
     background: rgba(0, 0, 0, 0.5);
     border-radius: 15px;
-    font-family: 'Merriweather', serif;
 }
 
-.service-card2 h3 {
+.service-card h3 {
     position: relative;
     z-index: 1;
     font-size: 20px;
     font-weight: bold;
-    font-family: 'Merriweather', serif;
+    font-family:'Merriweather', serif; ;
 }
 
-.service-card2 a {
+.service-card a {
     color: white;
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 5px;
     transition: all 0.3s ease;
-    font-family: 'Merriweather', serif;
+    font-family:'Merriweather', serif; ;
 }
 
-.service-card2:hover {
+.service-card:hover {
     transform: translateY(-10px);
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
 }
 
-/* Individual Background Images for Each Card */
-.cardA {
-    background-image: url('https://i.pinimg.com/474x/ae/6c/ba/ae6cbae396916841efea8a63ed0fabc6.jpg');
+
+.card1 {
+    background-image: url('https://i.pinimg.com/474x/4c/f2/c4/4cf2c4752019ee6587b2f430d4c82ce9.jpg');
 }
 
-.cardB {
-    background-image: url('https://i.pinimg.com/474x/0b/9b/4d/0b9b4d27cc6cd8f0da1d3d824ff703e9.jpg');
+.card2 {
+    background-image: url('https://i.pinimg.com/474x/59/10/d7/5910d7466db4cbfa0f6862fa691c82be.jpg');
 }
 
-.cardC {
-    background-image: url('https://i.pinimg.com/474x/d6/b8/8c/d6b88cc06c6c9d34874627f1b1e34ed9.jpg');
+.card3 {
+    background-image: url('https://i.pinimg.com/474x/cd/fa/ff/cdfaff4a01ebb1870246ef596084d253.jpg');
 }
 
-.cardD {
-    background-image: url('https://i.pinimg.com/474x/f3/7b/b2/f37bb2fc5dfcdff8579df82925b2ef83.jpg');
+.card4 {
+    background-image: url('https://i.pinimg.com/474x/8a/23/38/8a2338acd576f7aedaed9167c696f84b.jpg');
 }
 
-.cardE {
-    background-image: url('https://i.pinimg.com/474x/3b/d8/83/3bd883e32a340efdfd8de5d7f8b2a702.jpg');
+.card5 {
+    background-image: url('https://i.pinimg.com/736x/9b/df/75/9bdf7507eee73f8b2c61cd7deff14e16.jpg');
 }
 
-/* Responsive Design */
+.card6 {
+    background-image: url('https://i.pinimg.com/474x/0f/90/00/0f900068cdd45fbba66486d929c24cb9.jpg');
+}
+
+.card7 {
+    background-image: url('https://i.pinimg.com/474x/25/c9/80/25c9803d3e46b770261b6d0e6428d6de.jpg');
+}
+.card8 {
+    background-image: url('https://i.pinimg.com/474x/ea/47/9c/ea479c49b0cb91d197930078c0fb5fe7.jpg');
+}
+.card9 {
+    background-image: url('https://i.pinimg.com/474x/f8/a1/ef/f8a1ef5d28bcc26b17fd35207693ab4f.jpg');
+}
+.card10 {
+    background-image: url('https://i.pinimg.com/474x/84/07/a0/8407a08fb4d17bd0bea9b1bb3ffc2747.jpg');
+}
+
 @media screen and (max-width: 768px) {
     .nav {
         gap: 20px;
@@ -175,4 +190,27 @@ body {
     .service-card {
         width: 90%;
     }
+}
+.footer {
+    background-color: #222;
+    color: #d4af37;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer .social-icons a {
+    color: #d4af37;
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+.footer .social-icons a:hover {
+    color: #f1c40f;
 }

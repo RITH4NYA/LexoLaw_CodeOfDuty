@@ -1,0 +1,96 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+  } */
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Playfair+Display:wght@400;700&display=swap');
+
+  
+  .container {
+    text-align: center;
+  }
+  
+  .header {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    height: 17%;
+  }
+  
+  .header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+  }
+  
+  .hero1 {
+    background: url("https://i.pinimg.com/474x/b8/1c/4f/b81c4f46e9ba1c515f3691c4d74073e2.jpg") no-repeat center/cover;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+    background-size:cover ;
+    top: 10%;
+  }
+  
+  .lawyers {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 20px; 
+    padding: 50px;
+    background: #f9f5f0; 
+  }
+  
+  .lawyer-card2 {
+    background: white; 
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; 
+    min-height: 400px; 
+  }
+  
+  .lawyer-card2 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px; 
+  }
+  
+  .lawyer-card2 h3 {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .lawyer-card2 p {
+    font-size: 1em;
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }
+  
+  .lawyer-card2 button {
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+    margin-top: auto; 
+  }
+  
+  .lawyer-card2 button:hover {
+    background: #dfe616;
+  }

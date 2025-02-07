@@ -2,15 +2,20 @@ import React from "react";
 import "../Styles/c.css";
 
 const lexo = () => {
+  
+  const handleSOSClick = () => {
+    alert("Emergency assistance requested! A representative will contact you shortly.");
+  };
+
   return (
     <>
       <header className="header">
         <div className="logo">Lexolution</div>
         <nav className="nav">
           <a href="/Service">Our services</a>
-          <a href="/">About Us</a>
-          <a href="/ai">Registration</a>
-          <a href="#">Contact us</a>
+          <a href="/LawPage">About Us</a>
+          <a href="/ai">Comrade</a>
+          <a href="#">SignUp</a>
         </nav>
         <div className="contact-info">
           <span>(780) 429-2300</span>
@@ -27,18 +32,40 @@ const lexo = () => {
         <div className="buttons">
           <button className="consultation-btn">GET A CONSULTATION</button>
         </div>
+        <div className="buttons">
+        <button className="reviews-btn" onClick={handleSOSClick}>SOS</button>
+        </div>
       </main>
-      <footer className="footer">
-        <div className="google-review">
+      
+      <div className="robot-container">
+        <div className="robot"></div>
+      </div>
+      <div className="statistics">
+          <div className="stat">
+            <span>190+</span>
+            <p>Cases</p>
+          </div>
+          <div className="stat">
+            <span>30,000+</span>
+            <p>Hours of Experience</p>
+          </div>
+          <div className="stat">
+            <span>250+</span>
+            <p>Successful Cases</p>
+          </div>
+        </div>
+      <footer className="footer" style={{backgroundColor:"white"}}>
+        <div className="google-review " style={{backgroundColor:"white"}}>
           <img
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQztGREBxlF-dRM-QjtCkvj4nSfBqQnHnOj0Q&s"
             width="200px"
             alt="Google Review Badge"
           />
-          <span>4.8</span>
-          <a href="#reviews">Read our 278 reviews</a>
+          
+          <h3><span>4.8</span></h3>
+         <h3> <a href="#reviews" style={{color:"black"}}>Read our 278 reviews </a></h3>
         </div>
-        <div className="google-reviews-cards">
+        <div className="google-reviews-cards" style={{backgroundColor:"white"}}>
           {["Great service, highly recommended!", "Very professional and knowledgeable team.", "I had a great experience working with them.", "Excellent customer service, will return for sure!", "Top-notch legal expertise, highly satisfied.", "The team really goes above and beyond for their clients."].map((review, index) => (
             <div key={index} className="review-card">
               <img
@@ -71,20 +98,21 @@ const lexo = () => {
             </form>
           </div>
         </div>
-        <div className="statistics">
-          <div className="stat">
-            <span>190+</span>
-            <p>Cases</p>
-          </div>
-          <div className="stat">
-            <span>30,000+</span>
-            <p>Hours of Experience</p>
-          </div>
-          <div className="stat">
-            <span>250+</span>
-            <p>Successful Cases</p>
-          </div>
+        <footer className="footer">
+        <div className="social-icons">
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-instagram"></i>
+          </a>
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-facebook"></i>
+          </a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-linkedin"></i>
+          </a>
         </div>
+        <p>&copy; 2025 Lexolution. All Rights Reserved.</p>
+      </footer>
+
       </footer>
     </>
   );
