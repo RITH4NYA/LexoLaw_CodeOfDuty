@@ -73,7 +73,6 @@ const Divorce = () => {
 
       <section className="hero">
         <h2>Hire a Divorce Lawyer.</h2>
-        <h3>Advocating For Clients Since 1991</h3>
         <p>
           Lexolution is an Edmonton-based, multi-practice law firm, serving
           clients throughout India.
