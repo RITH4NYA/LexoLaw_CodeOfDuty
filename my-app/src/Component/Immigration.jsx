@@ -71,7 +71,7 @@ const Immigration = () => {
         </div>
       </header>
 
-      <section className="hero">
+      <section className="hero8">
         <h2>Hire a Immigration Lawyer.</h2>
         <h3>Advocating For Clients Since 1991</h3>
         <p>
